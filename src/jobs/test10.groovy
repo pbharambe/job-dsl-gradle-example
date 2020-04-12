@@ -3,7 +3,7 @@ import javaposse.jobdsl.dsl.Job
 
 BaseConfig config = BaseConfig.GetInstance()
 
-folder(${config.jobFolderPrefix}) {
+folder("${config.jobFolderPrefix}") {
     description 'This example shows how to create jobs using Job builders.'
 }
 
