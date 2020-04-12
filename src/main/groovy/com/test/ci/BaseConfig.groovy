@@ -14,4 +14,6 @@ class BaseConfig {
 
     String jobFolderName = "Test"
     String jobFolderPrefix = "${jobFolderName}/"
+    
+    String jenkinsSlaveNode = "node1"
 }
